@@ -1,0 +1,16 @@
+.details{
+    max-width: 32em;
+    background: purple;
+    color: white;
+    margin: 1.25em;
+    padding: 0.25em;
+    text-align: left;
+    font-size: 0.875em;
+}
+
+.details img{
+    max-width: 30em;
+    max-height: 32em;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}

@@ -1,0 +1,17 @@
+<h1 class="heading">My Netflix Movies</h1>
+
+<div class="parent">
+    <ol class="movies">
+        <li class="movie-list" 
+        *ngFor="let eachMovie of movies" 
+        [class.selected] = "eachMovie === selectedMovie" 
+        (click)="onSelectMovie(eachMovie)">
+            {{eachMovie.name}} - {{eachMovie.releaseYear}}
+        </li>
+    </ol>
+
+    <app-movie-detail [movie]="selectedMovie"></app-movie-detail>
+</div>
+
+
+

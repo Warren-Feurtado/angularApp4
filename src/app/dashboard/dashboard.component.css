@@ -1,0 +1,39 @@
+.movie-card{
+    max-height: 7.5em;
+    min-width: 7.5em;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    border-radius: 1.25em;
+    padding: 1.25em;
+    text-align: center;
+    color: white;
+    background: #4499ff;
+    box-shadow: 0.312em 0.312em #888888;
+    /* border: 1px solid red; */
+}
+
+.movie-card:hover{
+    cursor: pointer;
+}
+
+.movie-card,a{
+    text-decoration: none;
+}
+
+.columns-1-4{
+    float: left;
+    width: 25%;
+    padding: 0 1.25em 1.25em 0;
+}
+
+[class*='columns-'] :last-of-type{
+    padding: 0;
+    
+}
+
+*,*:after,*:before{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
